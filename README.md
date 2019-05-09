@@ -4,7 +4,10 @@
 
 ## 使用说明：
 
-1、导入头文件 "YMYFontSize.h"
+1、导入头文件
+```ruby
+#import "YMYFontSize.h"
+```
 2、设置全局字体大小（举例如下）
 ```ruby
 [YMYFontSize setupFontSize:14];
