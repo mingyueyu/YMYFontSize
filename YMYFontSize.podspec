@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YMYFontSize"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "全局字体大小。"
 
   # This description is used to generate tags and improve search results.
@@ -89,8 +89,10 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "YMYFontSizeDemo/YMYFontSize/*", "YMYFontSizeDemo/YMYFontSize/Category/*"
+  s.subspec 'Category' do |ss|
+      ss.source_files = "YMYFontSizeDemo/YMYFontSize/Category/*"
+  end
+  s.source_files  = "YMYFontSizeDemo/YMYFontSize/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
