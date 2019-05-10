@@ -11,22 +11,15 @@
 
 @implementation YMYFontSize
 
-
-+(void)setupFontSize:(CGFloat)fontSize{
+// 修改全局字体大小
++ (void)setupFontSize:(CGFloat)fontSize{
     [[NSUserDefaults standardUserDefaults] setFloat:fontSize forKey:YMY_FONT_SIZE];
     [[NSNotificationCenter defaultCenter] postNotificationName:YMY_FONT_SIZE object:nil userInfo:nil];
 }
 
-+(CGFloat)currentFontSize{
+// 获取设定的字体大小
++ (CGFloat)currentFontSize{
     return [[UIView new] fontSize];
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 @end

@@ -11,5 +11,11 @@
 #define YMY_FONT_SIZE @"YMYFontSize"
 
 @interface UIView (YMYModelView)
--(CGFloat)fontSize;
+// 获取字体大小
+- (CGFloat)fontSize;
+// 注册通知
+- (void)addNote;
+// 移除通知
+- (void)removeNote;
+
 @end

@@ -10,19 +10,19 @@
 #import "UIView+YMYModelView.h"
 
 @implementation UISegmentedControl (YMYSegmentedControl)
-- (void)awakeFromNib
-{
+- (void)awakeFromNib{
     [super awakeFromNib];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setUpFontSize) name:YMY_FONT_SIZE object:nil];
-    [self setUpFontSize];
+    // 监听通知
+    [self addNote];
 }
 
--(void)setUpFontSize{
+- (void)setUpFontSize{
     [self setTitleTextAttributes:[NSDictionary dictionaryWithObject:[UIFont systemFontOfSize:[self fontSize]] forKey:NSFontAttributeName] forState:UIControlStateNormal];
 }
 
--(void)removeFromSuperview{
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:YMY_FONT_SIZE object:nil];
+- (void)removeFromSuperview{
+    // 移除通知
+    [self removeNote];
     [super removeFromSuperview];
 }
 @end

@@ -41,7 +41,7 @@
     self.l_size.text = [NSString stringWithFormat:@"%.1f", [YMYFontSize currentFontSize]];
 }
 
--(void)viewWillAppear:(BOOL)animated{
+- (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     //3.获取当前字体大小
     CGFloat size = [YMYFontSize currentFontSize];
