@@ -19,6 +19,7 @@
 		D045922A1F1F699100087211 /* UITextField+YMYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D04592221F1F699100087211 /* UITextField+YMYTextField.m */; };
 		D045922B1F1F699100087211 /* UIView+YMYModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04592241F1F699100087211 /* UIView+YMYModelView.m */; };
 		D045922C1F1F699100087211 /* YMYFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D04592261F1F699100087211 /* YMYFontSize.m */; };
+		D0E1F608228B44250023AA8D /* UITextView+YMYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E1F607228B44250023AA8D /* UITextView+YMYTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		D04592241F1F699100087211 /* UIView+YMYModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YMYModelView.m"; sourceTree = "<group>"; };
 		D04592251F1F699100087211 /* YMYFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMYFontSize.h; sourceTree = "<group>"; };
 		D04592261F1F699100087211 /* YMYFontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMYFontSize.m; sourceTree = "<group>"; };
+		D0E1F606228B44250023AA8D /* UITextView+YMYTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+YMYTextView.h"; sourceTree = "<group>"; };
+		D0E1F607228B44250023AA8D /* UITextView+YMYTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YMYTextView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				D045921B1F1F699100087211 /* UIButton+YMYButtom.h */,
+				D0E1F606228B44250023AA8D /* UITextView+YMYTextView.h */,
+				D0E1F607228B44250023AA8D /* UITextView+YMYTextView.m */,
 				D045921C1F1F699100087211 /* UIButton+YMYButtom.m */,
 				D045921D1F1F699100087211 /* UILabel+YMYLable.h */,
 				D045921E1F1F699100087211 /* UILabel+YMYLable.m */,
@@ -203,6 +208,7 @@
 				D04592281F1F699100087211 /* UILabel+YMYLable.m in Sources */,
 				D04592271F1F699100087211 /* UIButton+YMYButtom.m in Sources */,
 				D04591271F1EF91800087211 /* main.m in Sources */,
+				D0E1F608228B44250023AA8D /* UITextView+YMYTextView.m in Sources */,
 				D045922C1F1F699100087211 /* YMYFontSize.m in Sources */,
 				D045922B1F1F699100087211 /* UIView+YMYModelView.m in Sources */,
 			);

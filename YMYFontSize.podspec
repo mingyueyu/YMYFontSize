@@ -90,9 +90,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.subspec 'Category' do |ss|
-      ss.source_files = "YMYFontSizeDemo/YMYFontSize/Category/*"
+      ss.source_files = "YMYFontSizeDemo/YMYFontSizeDemo/YMYFontSize/Category/*"
   end
-  s.source_files  = "YMYFontSizeDemo/YMYFontSize/*"
+  s.source_files  = "YMYFontSizeDemo/YMYFontSizeDemo/YMYFontSize/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
