@@ -2,6 +2,20 @@
 
 用户设置字体大小，仅需一行代码即可。（仅限于UILabel、UIButton、UITextField、UITextView、UISegmentedControl。如需添加或建议，请联系本人，在本页下面有联系方式。）
 
+## 导入方式：
+
+1、（推荐）cocoapods 导入，在 Podfile 添加
+```ruby
+platform :ios, '9.0'
+
+target 'TargetName' do
+pod 'YMYFontSize'
+end
+```
+
+2、手动导入，下载工程，在工程目录下把 "YMYFontSize" 文件夹拖到你的工程中使用。
+
+
 ## 使用说明：
 
 1、导入头文件（不同的导入方式导入头文件不同）
@@ -19,20 +33,6 @@
 ```objective-c
 CGFloat fontSize = [YMYFontSize currentFontSize];
 ```
-
-## 导入方式：
-
-1、（推荐）cocoapods 导入，在 Podfile 添加
-```ruby
-platform :ios, '9.0'
-
-target 'TargetName' do
-pod 'YMYFontSize'
-end
-```
-
-2、手动导入，下载工程，在工程目录下把 "YMYFontSize" 文件夹拖到你的工程中使用。
-
 
 ## 声明：
 ```
