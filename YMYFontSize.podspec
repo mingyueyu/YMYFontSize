@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YMYFontSize"
-  s.version      = "1.0.4"
+  s.version      = "1.0.6"
   s.summary      = "全局字体大小。"
 
   # This description is used to generate tags and improve search results.
